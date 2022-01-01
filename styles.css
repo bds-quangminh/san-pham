@@ -17,7 +17,7 @@
 .header {
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 20px;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -28,7 +28,7 @@
 .body {
   position: absolute;
   width: 100%;
-  top: 100px;
+  top: 20px;
   left: 0px;
   right: 0px;
   bottom: 0px;
@@ -56,13 +56,15 @@
   top: 20px;
   display: inline-flex;
   align-items: center; 
-  padding-left: 15px;
+  padding-left: 20px;
   padding-right: 10px;
   height: 40px;
   width: 160px;
   border-radius: 20px;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
+  font-family: "Sans-serif", Arial, serif;
+  font-weight: bold;
   background-color: #1e2586;
 }
 
@@ -104,17 +106,42 @@
 
 @keyframes pulse {
   0% {
-      transform: scale(0.5);
-      opacity: 0
+    transform: scale(0.5);
+    opacity: 0
   }
-
   50% {
-      transform: scale(1);
-      opacity: 1
+    transform: scale(1);
+    opacity: 1
   }
-
   100% {
-      transform: scale(1.3);
-      opacity: 0
+    transform: scale(1.3);
+    opacity: 0
+  }
+}
+
+.scroll-left {
+  height: 20px;	
+  overflow: hidden;
+  position: relative;
+  background: #333ddd;
+  color: white;
+  font-size: 16px;
+  font-family: "Sans-serif", Arial, serif;
+}
+.scroll-left p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform:translateX(100%);
+  animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%); 		
+  }
+  100% {
+    transform: translateX(-100%); 
   }
 }
