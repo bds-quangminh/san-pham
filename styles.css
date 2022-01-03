@@ -52,16 +52,16 @@
 
 .call-now {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 25px;
+  top: 10px;
   display: inline-flex;
   align-items: center; 
-  padding-left: 20px;
+  padding-left: 25px;
   padding-right: 10px;
-  height: 40px;
-  width: 160px;
-  border-radius: 20px;
-  font-size: 20px;
+  height: 50px;
+  width: 180px;
+  border-radius: 25px;
+  font-size: 24px;
   color: white;
   font-weight: bold;
   background-color: #1e2586;
@@ -128,7 +128,6 @@
 }
 .scroll-left p {
   position: absolute;
-  width: 100%;
   height: 100%;
   text-align: center;
   transform:translateX(100%);
