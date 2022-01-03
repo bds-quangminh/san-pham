@@ -44,40 +44,40 @@
 .call-now {
   position: absolute;
   right: 25px;
-  top: 20px;
+  top: 10px;
   align-items: center;
   padding-top: 10px;
-  padding-left: 55px;
+  padding-left: 40px;
   padding-right: 10px;
-  height: 100px;
-  width: 450px;
-  border-radius: 60px;
+  height: 80px;
+  width: 380px;
+  border-radius: 80px;
   font-weight: bold;
-  background-color: #1e2586;
+  background-color: #dcc168;
 }
 
 .hotline {
-  line-height: 30px;
+  line-height: 25px;
   font-size: 28px;
-  color: white;
+  color: black;
 }
 
 .phone-number {
-  line-height: 60px;
+  line-height: 50px;
   align-content: center;
   align-items: center;
-  font-size: 60px;
-  color: white;
+  font-size: 52px;
+  color: black;
 }
 
 .pulse i {
-  color: white;
+  color: black;
 }
 
 .pulse {
-  height: 140px;
-  width: 140px;
-  background-color: #333ddd;
+  height: 110px;
+  width: 110px;
+  background-color: #fddd76;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -88,7 +88,7 @@
 .pulse::before {
   content: "";
   position: absolute;
-  border: 5px solid #333ddd;
+  border: 5px solid #fddd76;
   width: calc(100% + 10px);
   height: calc(100% + 10px);
   border-radius: 50%;
@@ -98,7 +98,7 @@
 .pulse::after {
   content: "";
   position: absolute;
-  border: 5px solid #333ddd;
+  border: 5px solid #fddd76;
   width: calc(100% + 10px);
   height: calc(100% + 10px);
   border-radius: 50%;
@@ -125,8 +125,8 @@
   height: 50px;	
   overflow: hidden;
   position: relative;
-  background: #1e2586;
-  color: white;
+  background: #fddd76;
+  color: black;
   line-height: 50px;
   font-size: 32px;
 }
