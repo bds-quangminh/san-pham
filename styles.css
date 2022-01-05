@@ -53,13 +53,13 @@
   width: 380px;
   border-radius: 80px;
   font-weight: bold;
-  background-color: #dcc168;
+  background-color: #383220;
 }
 
 .hotline {
   line-height: 25px;
   font-size: 28px;
-  color: black;
+  color: #ffe599;
 }
 
 .phone-number {
@@ -67,17 +67,17 @@
   align-content: center;
   align-items: center;
   font-size: 52px;
-  color: black;
+  color: #ffe599;
 }
 
 .pulse i {
-  color: black;
+  color: #ffe599;
 }
 
 .pulse {
   height: 110px;
   width: 110px;
-  background-color: #fddd76;
+  background-color: black;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -88,7 +88,7 @@
 .pulse::before {
   content: "";
   position: absolute;
-  border: 5px solid #fddd76;
+  border: 5px solid black;
   width: calc(100% + 10px);
   height: calc(100% + 10px);
   border-radius: 50%;
@@ -98,7 +98,7 @@
 .pulse::after {
   content: "";
   position: absolute;
-  border: 5px solid #fddd76;
+  border: 5px solid black;
   width: calc(100% + 10px);
   height: calc(100% + 10px);
   border-radius: 50%;
@@ -125,8 +125,8 @@
   height: 50px;	
   overflow: hidden;
   position: relative;
-  background: #fddd76;
-  color: black;
+  background: black;
+  color: #ffe599;
   line-height: 50px;
   font-size: 32px;
 }
